@@ -22,6 +22,8 @@ const options = {
             btnStart.disabled = false;
 
             btnStart.addEventListener('click', () => {
+                btnStart.disabled = true;
+
                 const daysText = document.querySelector("[data-days]");
                 const hoursText = document.querySelector("[data-hours]");
                 const minutesText = document.querySelector("[data-minutes]");

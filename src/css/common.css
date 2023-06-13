@@ -16,3 +16,12 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer .field{
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  color: white;
+  background-color: #212121;
+  border-radius: 5PX;
+}
